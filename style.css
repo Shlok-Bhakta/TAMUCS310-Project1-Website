@@ -1,5 +1,11 @@
+@font-face {
+font-family: 'Caskaydia Cove';
+src: local('/CaskCov.woff2') format('woff2'); /* Specify the font name without quotes */
+font-weight: normal;
+font-style: normal;
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Caskaydia Cove';
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,6 +19,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nerdfont {
+  font-family: 'Caskaydia Cove';
+}
 a {
   font-weight: 500;
   color: #646cff;
