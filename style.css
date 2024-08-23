@@ -4,6 +4,7 @@
 }
 
 /* Using the offical Catppuccin Colors as they are great */
+/* https://catppuccin.com/ */
 /* https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md */
 :root[theme="latte"]{
   --rosewater: #dc8a78;
@@ -65,11 +66,58 @@
 .nerdfont {
   font-family: 'Caskaydia Cove';
 }
-
-.bg {
-  background-color: var(--base);
+.bg-crust {
+  background-color: var(--crust);
 }
 
+.bg-base {
+  background-color: var(--base);
+}
+.bg-surface0 {
+  background-color: var(--surface0);
+}
 .textcol {
   color: var(--text);
+}
+
+.mainHeading {
+  background-image: linear-gradient(45deg, var(--blue), var(--green));
+  background-size: 100%;
+  display: grid;
+  place-items: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 15svw;
+  height: 75vh;
+}
+
+.w-vw {
+  width: 100vw;
+}
+.w-full {
+  width: 100%;
+}
+.w-auto{
+  width: auto;
+}
+.w-fit {
+  width: fit-content;
+}
+.h-fit {
+  height: fit-content;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex{
+  display: flex;
 }
